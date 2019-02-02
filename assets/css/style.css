@@ -208,8 +208,8 @@ textarea {
     width: 90%;
     opacity: .8;
     transition: opacity .25s ease-in-out;
-   -moz-transition: opacity .25s ease-in-out;
-   -webkit-transition: opacity .25s ease-in-out;
+    -moz-transition: opacity .25s ease-in-out;
+    -webkit-transition: opacity .25s ease-in-out;
 
 }
 
@@ -250,6 +250,3 @@ textarea {
 .inline {
     display: inline;
 }
-/*Attempting to add Konami code to page.
-https://www.instructables.com/id/How-to-Add-Konami-Code-to-Your-Website/*/
-

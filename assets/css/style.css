@@ -250,3 +250,10 @@ textarea {
 .inline {
     display: inline;
 }
+
+/*MEDIA RESPONSIVENESS CSS*/
+@media screen and (max-width: 980px) {
+
+
+
+}

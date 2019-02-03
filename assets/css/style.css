@@ -256,39 +256,101 @@ textarea {
 /*980 - Throughout: Header, nav, container - 30px-left*/
 @media screen and (max-width: 980px) {
 
-.header {
-    max-width: 980px;
+    .header {
+        max-width: 980px;
     
 }
 
-.name {
-    margin-left: 30px;
+    .name {
+        margin-left: 30px;
 
 }
 
-.nav {
-    margin-right: 15%;
+    .nav {
+        margin-right: 5%;
 }
-.container {
-    margin-left: 30px;
-    max-width: 70%;
-    padding-bottom: 30px;
+    .container {
+        margin-left: 30px;
+        max-width: 70%;
+        padding-bottom: 30px;
 }
-.h2 {
-    margin-left: 20px;
-    max-width: 93%;
+    .h2 {
+        margin-left: 20px;
+        max-width: 93%;
 
 }
 /*Contact-specific adjustments*/
 /*forms, inputs*/
 
-input {
-    max-width: 88%;
+    input {
+        max-width: 88%;
 }
 
-textarea {
-    max-width: 91%;
+    textarea {
+        max-width: 91%;
 }
 
+/*Portfolio pic adjustments*/
+    .portbox {
+        height: 250px;
+        width: 250px;
+        margin-left: 40px;
+    }
+
+    .portpics {
+        height: 250px;
+        width: 250px;
+    }
+
+    .porttext {
+        width: 93%;
+    }
 }
 
+/*768 - Throughout: Header, Nav, container*/
+@media screen and (max-width: 768px) {
+
+    .header {
+        max-width: 768px;
+        
+    }
+    
+    .name {
+        margin-left: 30px;
+    
+    }
+    
+    .nav {
+        margin-right: 25%;
+    }
+    .container {
+        margin-left: 30px;
+        max-width: 92%;
+        padding-bottom: 30px;
+    }
+    .h2 {
+        margin-left: 20px;
+        max-width: 93%;
+    
+    }
+    
+    .bioimage {
+        height: 250px;
+        width: 250px;
+    }
+
+    .portbox {
+        height: 250px;
+        width: 250px;
+        margin-left: 45px;
+    }
+
+    .portpics {
+        height: 250px;
+        width: 250px;
+    }
+
+    .porttext {
+        width: 93%;
+    }
+}

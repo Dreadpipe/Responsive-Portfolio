@@ -362,6 +362,10 @@ textarea {
         border-style: none;
         margin-bottom: 80px;
     }
+
+    .container {
+        max-width: 90%;
+    }
     
     .bioimage {
         height: 80%;
@@ -392,7 +396,23 @@ textarea {
         width: 100%;
     }
 
+    .h2 {
+        font-size: 150%;
+    }
+
     .portbox {
-        
+        height: 300px;
+        width: 300px;
+        margin-left: 24%;
+    }
+
+    .portpics {
+        height: 100%;
+        width: 100%;
+
+    }
+    
+    .porttext {
+        width: 94%;
     }
 }

@@ -354,3 +354,45 @@ textarea {
         width: 93%;
     }
 }
+
+/*640 - This one's tricky!*/
+@media screen and (max-width: 640px) {
+
+    .header {
+        border-style: none;
+        margin-bottom: 80px;
+    }
+    
+    .bioimage {
+        height: 80%;
+        width: 80%;
+        margin: 0 30px; 
+        padding-bottom: 20px;
+    }
+
+
+    .name {
+        width: 100%;
+        padding-left: 19%;
+        margin-left: 0;
+
+    }
+
+
+    .nav {
+        background-color: #ffffff;
+        padding-top: 15px;
+        padding-bottom: 15px;
+        padding-left: 25%;
+        border-bottom: solid 2px #cccccc;
+        float: left;
+        top: 0;
+        margin-top: 0;
+        margin-left: 0;
+        width: 100%;
+    }
+
+    .portbox {
+        
+    }
+}

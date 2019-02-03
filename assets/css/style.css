@@ -290,7 +290,7 @@ textarea {
         max-width: 91%;
 }
 
-/*Portfolio pic adjustments*/
+/*Portfolio pic adjustments, chose pixels over percentiles*/
     .portbox {
         height: 250px;
         width: 250px;
@@ -308,6 +308,7 @@ textarea {
 }
 
 /*768 - Throughout: Header, Nav, container*/
+/*Looks good on ipad!*/
 @media screen and (max-width: 768px) {
 
     .header {
@@ -356,6 +357,8 @@ textarea {
 }
 
 /*640 - This one's tricky!*/
+/*On portrait-view in iphone 8, header issues-
+though all landscape a-ok!*/
 @media screen and (max-width: 640px) {
 
     .header {
